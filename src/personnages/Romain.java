@@ -1,9 +1,9 @@
 package personnages;
 
-public class Gaulois {
+public class Romain {
 	private String nom;
 	private int force;
-	public Gaulois(String nom, int force) {
+	public Romain(String nom, int force) {
 		this.nom = nom;
 		this.force = force;
 	}
@@ -12,11 +12,9 @@ public class Gaulois {
 	}
 	public void parler(String texte) {
 		System.out.println(prendreParole() + "\"" + texte + "\"");
-		
 	}
 	private String prendreParole() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Le romain " + nom + " : ";
 	}
 
 }
