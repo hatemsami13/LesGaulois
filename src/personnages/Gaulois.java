@@ -15,8 +15,8 @@ public class Gaulois {
 		
 	}
 	private String prendreParole() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Le gaulois " + nom + " : ";
 	}
+
 
 }
